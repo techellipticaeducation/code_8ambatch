@@ -63,7 +63,7 @@ public class Assignmentday6 {
 //		System.out.println(j);//10
 
 
-//4)
+
 //		
 //		int i = 10;
 //		int j = ++i;
@@ -77,10 +77,10 @@ public class Assignmentday6 {
 //		System.out.println(j);//22
 		
 //6)
-		int i = 10;
-		int j = i++ + i++ + --i + ++i + ++i;//10+11+11+12+13
-		System.out.println(i);//13
-		System.out.println(j);//57
+//		int i = 10;
+//		int j = i++ + i++ + --i + ++i + ++i;//10+11+11+12+13
+//		System.out.println(i);//13
+//		System.out.println(j);//57
 		
 	}
 
