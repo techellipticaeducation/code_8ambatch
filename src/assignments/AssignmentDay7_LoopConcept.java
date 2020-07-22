@@ -4,22 +4,39 @@ public class AssignmentDay7_LoopConcept {
 
 	public static void main(String[] args) {
 
-//1) Write code to get first 20 prime numbers -- Failed
-//						int count = 0;
-//						for (int i = 2; i < 100; i++) {
-//				
-//							if ((i % 2) != 0) {
-//								if ((i % 3) != 0) {
-//									System.out.println(i);
-//									count++;
-//								}
-//							}
-//				
-//							if (count == 20) {
-//								break;
-//							}
-//						}
+//1) Write code to get first 20 prime numbers
+						System.out.println(2);
+						for (int i = 3; i < 1000; i = i +2) {
+							boolean isPrimeNumber = true;
+							for(int j = 2; j < i/2 ; j++) {
+								if(i%j == 0) {
+									isPrimeNumber = false;
+								}
+							}
+							if(isPrimeNumber) {
+								System.out.println(i);
+							}
+						}
+//						
+//						 by itself or 1
+//						/ i = 34
+//						 2 , 23, 4,5 6,7,,9 till 34/2 = 17
 
+						
+						// 11 - is a prime number?
+						// 11/1 = 11
+						// 11/2 = 5.5
+						// 11/3 = 3.66
+						// 11/4 = 2.75
+						// 11/5 = 2.2
+						// 11/6 = 1.888
+						// 11/7 = 1.sd 
+						// 11/8 = 1.43
+						// 11/9 =
+						// 11/10 =
+						//11/11 = 
+						
+						
 //2) Write Code to sum all digit a value
 
 //						int number=445000;
@@ -225,8 +242,7 @@ public class AssignmentDay7_LoopConcept {
 //					}
 //					System.out.println("");
 //				}
-		
-		
+
 //16) why do we need break in switch case
 		// Break is used to terminate the switch case once condition is passed,
 		// otherwise the control will go to last case and same will be executed

@@ -11,7 +11,7 @@ public class Assignmentday6 {
 //		System.out.println(" 'i' value before swap "+i);
 //		int j = 40;
 //		System.out.println(" 'j' value before swap "+j);
-		
+//		
 		
 //						 Logic 1
 //						 int k = i+j; // third variable		//30+40=70		
@@ -27,7 +27,7 @@ public class Assignmentday6 {
 //					 	 System.out.println(" 'i' value after swap "+i);//40
 //					 	 System.out.println(" 'j' value after swap "+j);//30
 		
-				         //Logic 3 - Failed because i value changed after 1st arithmetic operation 
+//				         //Logic 3
 //					 	 i = i+j;									//70
 //					 	 j = i-j;									//70-40=30
 //		 				 i = i-j;									//70-30-40
