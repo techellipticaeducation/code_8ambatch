@@ -197,14 +197,16 @@ public class AssignmentDay7_LoopConcept {
 //				} 
 
 //Pattern 2
-//		for(int i=0;i<=5;i++) {
-//		for(int j=5;j>i;j--) {
-//			System.out.print(i);		
-//			System.out.print(j);	
+//		for (int i = 0; i < 5; i++) {
+//			for (int j = 1; j <= 4 - i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k <= i; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println("");
 //		}
-//		System.out.println();
-//	} 
-//		
+
 //Pattern 3		
 //				for(int i=0;i<=5;i++) {
 //					for(int j=5;j>i;j--) {
@@ -213,6 +215,18 @@ public class AssignmentDay7_LoopConcept {
 //					System.out.println();
 //				} 
 
+//Pattern 4  -- Failed
+//				for (int i = 0; i < 5; i++) {
+//					for (int k = 4; k > i; k--) {
+//						System.out.print("*");
+//					}
+//					for (int j = 0; j <= i; j++) {
+//						System.out.print(" ");
+//					}
+//					System.out.println("");
+//				}
+		
+		
 //16) why do we need break in switch case
 		// Break is used to terminate the switch case once condition is passed,
 		// otherwise the control will go to last case and same will be executed
