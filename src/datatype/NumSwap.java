@@ -7,10 +7,14 @@ public class NumSwap {
 		int A = 10;
 		int B = 20;
 		
-		 A= A*B; //10+20 = 30
-		 B = A/B; //30-20 = 10
-		 A = A/B;  //30-10 = 20
+		 A= A+B; //10+20 = 30
+		 B = A-B; //30-20 = 10
+		 A = A-B;  //30-10 = 20
 
+//		 A= A*B; //10+20 = 30
+//		 B = A/B; //30-20 = 10
+//		 A = A/B;  //30-10 = 20
+		 
 		System.out.println("Value in A is " + A);
 		System.out.println("Value in B is " + B);
 		

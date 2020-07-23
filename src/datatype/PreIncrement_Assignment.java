@@ -10,7 +10,7 @@ public class PreIncrement_Assignment {
 		int x = 10;
 		int y = x++ + x++ + --x + ++x + ++x;
 		  ///   10 + 11 + 11 + 12 + 13 
-		System.out.println("i value is " + i); // 10 --- Why i value increment in i variable?
+		System.out.println("i value is " + i); // 12
 		System.out.println("j value is " + j); // 10 + 12 = 22
 
 		
