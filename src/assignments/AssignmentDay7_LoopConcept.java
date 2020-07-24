@@ -5,18 +5,18 @@ public class AssignmentDay7_LoopConcept {
 	public static void main(String[] args) {
 
 //1) Write code to get first 20 prime numbers
-						System.out.println(2);
-						for (int i = 3; i < 1000; i = i +2) {
-							boolean isPrimeNumber = true;
-							for(int j = 2; j < i/2 ; j++) {
-								if(i%j == 0) {
-									isPrimeNumber = false;
-								}
-							}
-							if(isPrimeNumber) {
-								System.out.println(i);
-							}
-						}
+//						System.out.println(2);
+//						for (int i = 3; i < 1000; i = i +2) {
+//							boolean isPrimeNumber = true;
+//							for(int j = 2; j < i/2 ; j++) {
+//								if(i%j == 0) {
+//									isPrimeNumber = false;
+//								}
+//							}
+//							if(isPrimeNumber) {
+//								System.out.println(i);
+//							}
+//						}
 //						
 //						 by itself or 1
 //						/ i = 34
@@ -214,16 +214,35 @@ public class AssignmentDay7_LoopConcept {
 //				} 
 
 //Pattern 2
-//		for (int i = 0; i < 5; i++) {
-//			for (int j = 1; j <= 4 - i; j++) {
+//		{
+//		int i , j;
+//		for (i = 0; i < 5; i++) 
+//		{
 //				System.out.print(" ");
-//			}
-//			for (int k = 0; k <= i; k++) {
-//				System.out.print("*");
-//			}
-//			System.out.println("");
 //		}
-
+//		for (j = 0; j<= i; j++) 
+//		{
+//				System.out.print("*");
+//		}
+//		System.out.println();
+//		}	
+		
+		{ 
+//	        int i, j;  
+//	        for(i=0; i<n; i++) //outer loop for number of rows(n) { for(j=2*(n-i); j>=0; j--) // inner loop for spaces 
+//	            {           
+//	                System.out.print(" "); // printing space
+//	            } 
+//	            for(j=0; j<=i; j++) //  inner loop for columns
+//	            {       
+//	                System.out.print("* "); // print star
+//	            }           
+//	            System.out.println(); // ending line after each row
+//	        } 
+//	    }		
+		
+		
+		
 //Pattern 3		
 //				for(int i=0;i<=5;i++) {
 //					for(int j=5;j>i;j--) {
@@ -235,10 +254,10 @@ public class AssignmentDay7_LoopConcept {
 //Pattern 4  -- Failed
 //				for (int i = 0; i < 5; i++) {
 //					for (int k = 4; k > i; k--) {
-//						System.out.print("*");
+//						System.out.print(" ");
 //					}
 //					for (int j = 0; j <= i; j++) {
-//						System.out.print(" ");
+//						System.out.print("*");
 //					}
 //					System.out.println("");
 //				}
@@ -269,5 +288,6 @@ public class AssignmentDay7_LoopConcept {
 		// break;
 		// }
 
+	}
 	}
 }
