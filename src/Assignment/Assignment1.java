@@ -1,5 +1,5 @@
 //Convert Binary to Decimal
-package datatype;
+package Assignment;
 
 public class Assignment1 {
 	public static void main (String [] args	) {

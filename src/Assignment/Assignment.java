@@ -1,5 +1,5 @@
 // Data Types Assignment 11-Jul-2020
-package datatype;
+package Assignment;
 
 public class Assignment {
 

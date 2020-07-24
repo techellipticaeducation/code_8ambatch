@@ -1,4 +1,4 @@
-package datatype;
+package Assignment;
 
 public class PrimeNumber {
 

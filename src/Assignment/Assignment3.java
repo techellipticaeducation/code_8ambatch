@@ -1,5 +1,5 @@
 //Convert Hexadecimal to Decimal
-package datatype;
+package Assignment;
 
 public class Assignment3 {
 	public static void main (String [] args ) {
