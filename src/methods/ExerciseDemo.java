@@ -24,8 +24,13 @@ public class ExerciseDemo {
 	test4
 	*/
 	
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		ExerciseDemo ex1 = new ExerciseDemo();
+		// prime number code
 		
 	}
 	
