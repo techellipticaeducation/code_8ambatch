@@ -29,32 +29,29 @@ public class DataType {
 		//  -128 to 127
 		byte b1 = -128;
 		
-//		System.out.println(Integer.toBinaryString(a));
+		System.out.println(Integer.toBinaryString(a));
 		
 		
-//		System.out.println(a);
-//		System.out.println(i);
-//		System.out.println(j);
+		System.out.println(a);
+		System.out.println(i);
+		System.out.println(j);
 		
-		// Cyclic nature of numerical datatype
-		
-		// Jar 1 lt
-//		// casting
-		byte b2 = (byte)300; // casting
-//		int i3 = 260;
-//		System.out.println(i3);
-		// numerical date
-        //127 + 2 = 129 
-		//-128 to 127
-		
-// 		0 -> 127
-//		-128 -> 0
-		
-		
-		System.out.println(b2);
 		
 		
 		
 		// Realtime sceanrio -> coding language
 	}
 }
+
+//Assignment
+
+//byte = 8 bits
+//short = 2 byte
+//int = 4 bytes 
+//long = 8 byte
+//float = 32 byte
+//double = 64 byte
+//char = 16 
+//boolean = 1 True or False
+
+
