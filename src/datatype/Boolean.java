@@ -7,4 +7,10 @@ public class Boolean {
 		bool = false;
 		
 	}
+	
+	
+	public void test() {
+		boolean bool = true;
+		bool = false;
+	}
 }

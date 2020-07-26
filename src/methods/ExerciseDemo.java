@@ -43,7 +43,7 @@ public class ExerciseDemo {
 	 * test3
 	 * test4
 	 */
-	int square(int inputValue) {
+	public int square(int inputValue) {
 		return inputValue*inputValue;
 	}
 	
@@ -53,7 +53,7 @@ public class ExerciseDemo {
 	 * @param inputValue2
 	 * @return
 	 */
-	int sum(int inputValue, int inputValue2) {
+	public int sum(int inputValue, int inputValue2) {
 		return inputValue+inputValue2;
 	}
 	
