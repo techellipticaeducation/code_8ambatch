@@ -22,21 +22,19 @@ public class AssignmentDay7_LoopConcept {
 //						/ i = 34
 //						 2 , 23, 4,5 6,7,,9 till 34/2 = 17
 
-						
-						// 11 - is a prime number?
-						// 11/1 = 11
-						// 11/2 = 5.5
-						// 11/3 = 3.66
-						// 11/4 = 2.75
-						// 11/5 = 2.2
-						// 11/6 = 1.888
-						// 11/7 = 1.sd 
-						// 11/8 = 1.43
-						// 11/9 =
-						// 11/10 =
-						//11/11 = 
-						
-						
+		// 11 - is a prime number?
+		// 11/1 = 11
+		// 11/2 = 5.5
+		// 11/3 = 3.66
+		// 11/4 = 2.75
+		// 11/5 = 2.2
+		// 11/6 = 1.888
+		// 11/7 = 1.sd
+		// 11/8 = 1.43
+		// 11/9 =
+		// 11/10 =
+		// 11/11 =
+
 //2) Write Code to sum all digit a value
 
 //						int number=445000;
@@ -204,63 +202,6 @@ public class AssignmentDay7_LoopConcept {
 //			System.out.println(true);
 //		}
 
-//15)	Star Programs
-//Pattern 1 		
-//				for(int i=0;i<5;i++) {
-//					for(int j=0;j<=i;j++) {
-//						System.out.print('*');
-//					}
-//					System.out.println();
-//				} 
-
-//Pattern 2
-//		{
-//		int i , j;
-//		for (i = 0; i < 5; i++) 
-//		{
-//				System.out.print(" ");
-//		}
-//		for (j = 0; j<= i; j++) 
-//		{
-//				System.out.print("*");
-//		}
-//		System.out.println();
-//		}	
-		
-		{ 
-//	        int i, j;  
-//	        for(i=0; i<n; i++) //outer loop for number of rows(n) { for(j=2*(n-i); j>=0; j--) // inner loop for spaces 
-//	            {           
-//	                System.out.print(" "); // printing space
-//	            } 
-//	            for(j=0; j<=i; j++) //  inner loop for columns
-//	            {       
-//	                System.out.print("* "); // print star
-//	            }           
-//	            System.out.println(); // ending line after each row
-//	        } 
-//	    }		
-		
-		
-		
-//Pattern 3		
-//				for(int i=0;i<=5;i++) {
-//					for(int j=5;j>i;j--) {
-//						System.out.print('*');
-//					}
-//					System.out.println();
-//				} 
-
-//Pattern 4  -- Failed
-//				for (int i = 0; i < 5; i++) {
-//					for (int k = 4; k > i; k--) {
-//						System.out.print(" ");
-//					}
-//					for (int j = 0; j <= i; j++) {
-//						System.out.print("*");
-//					}
-//					System.out.println("");
-//				}
 
 //16) why do we need break in switch case
 		// Break is used to terminate the switch case once condition is passed,
@@ -288,6 +229,5 @@ public class AssignmentDay7_LoopConcept {
 		// break;
 		// }
 
-	}
 	}
 }
