@@ -11,7 +11,7 @@ public class Fibonacci {
 		while (k<=50) {		
 			k= i+j;
 			
-			System.out.println(k); 
+			System.out.print(k + " - "); 
 			
 			i=j;                       
 			j=k;
