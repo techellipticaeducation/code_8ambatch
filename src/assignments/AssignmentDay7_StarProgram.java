@@ -14,6 +14,7 @@ public class AssignmentDay7_StarProgram {
 //			System.out.println();
 //		}		
 //System.out.println();
+//
 //	Pattern 2
 //		for (int i = 0; i < 5; i++) {
 //			for (int j = 4; j > i; j--) {
@@ -25,7 +26,8 @@ public class AssignmentDay7_StarProgram {
 //			System.out.println();
 //		}
 //System.out.println();
-//	Pattern 3
+//
+//Pattern 3
 //						for(int i=0;i<=5;i++) {
 //							for(int j=5;j>i;j--) {
 //								System.out.print('*');
@@ -211,6 +213,7 @@ public class AssignmentDay7_StarProgram {
 //		}
 //System.out.println();
 //	Pattern 15
+//	Logic 1
 //		for (int i = 1; i <= 5; i++) {
 //			for (int j = 1; j <= i; j++) {
 //					if (i==3 && j==2 || i==4 && j==2 || i==4 && j==3 ) {
@@ -221,10 +224,22 @@ public class AssignmentDay7_StarProgram {
 //					}
 //			}
 //			System.out.println();
+//		}		
+//	Logic 2
+//		int n = 6;
+//		for (int i = 1; i <= n; i++) {
+//			for (int j = 1; j <= (2 * i - 1); j++) {
+//				if (j == 1 || i == n || j == (2 * i - 1)) {
+//					System.out.print("*");
+//				} else {
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
 //		}
-//
 //System.out.println();
 //Pattern 16
+// Logic 1
 //		for (int i = 0; i < 5; i++) {
 //			for (int j = 4; j > i; j--) {
 //				System.out.print(" ");
@@ -238,5 +253,6 @@ public class AssignmentDay7_StarProgram {
 //			}
 //			System.out.println();
 //		}
+
 	}
 }
