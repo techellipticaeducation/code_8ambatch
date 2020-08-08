@@ -5,18 +5,18 @@ public class AssignmentDay7_LoopConcept {
 	public static void main(String[] args) {
 
 //1) Write code to get first 20 prime numbers
-//						System.out.println(2);
-//						for (int i = 3; i < 1000; i = i +2) {
-//							boolean isPrimeNumber = true;
-//							for(int j = 2; j < i/2 ; j++) {
-//								if(i%j == 0) {
-//									isPrimeNumber = false;
-//								}
-//							}
-//							if(isPrimeNumber) {
-//								System.out.println(i);
-//							}
-//						}
+						System.out.println(2);
+						for (int i = 3; i < 1000; i = i +2) {
+							boolean isPrimeNumber = true;
+							for(int j = 2; j < i/2 ; j++) {
+								if(i%j == 0) {
+									isPrimeNumber = false;
+								}
+							}
+							if(isPrimeNumber) {
+								System.out.println(i);
+							}
+						}
 //						
 //						 by itself or 1
 //						/ i = 34
