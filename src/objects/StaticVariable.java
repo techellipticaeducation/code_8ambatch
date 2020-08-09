@@ -3,10 +3,7 @@ package objects;
 public class StaticVariable {
 	public static void main(String[] args) {
 		
-		
 		M.j = 60;
-		
-		
 		
 		M m1 = new M();
 		m1.i = 10;
