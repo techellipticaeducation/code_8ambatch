@@ -4,7 +4,7 @@ public class ExamClassTest {
 
 	public static void main(String[] args) {
 
-	ExamClass.testPrimeNumber(4);
+	ExamClass.testPrimeNumber(5000);
 		
 	}
 }
