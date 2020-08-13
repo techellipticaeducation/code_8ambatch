@@ -1,7 +1,8 @@
 package assignments;
 
 public class AssignmentAdhoc1 {
-
+	
+	
 	public static void main(String args[]) {
 		
 //		String Test = "Mqp1rw84g5h";
@@ -30,5 +31,19 @@ public class AssignmentAdhoc1 {
 //			}
 //		}
 
+//		System.out.println(0.1*3==0.3);
+//		System.out.println(0.3*3==0.3);
+//		System.out.println(0.1*2==0.2);
+//		System.out.println(0.1*5==0.5);
+//		System.out.println(0.1*6==0.6);
+//		System.out.println(0.5*5==0.5);
+
+		
+		   public int reverse(int x) {
+		        for(int i=0;i<x.;i++){
+		            syso
+		        }
+		
+		
 	}
 }

@@ -67,8 +67,9 @@ public class AssignmentDay7_LoopConcept {
 //								rev = number % 10;
 //								number = number / 10;
 //								System.out.print(rev);
-//							}
-
+//							}						
+						
+						
 //4) Write Code to write Fibonacci Code
 //		1 1 2 3 5 8 13 21 34 ....
 //							int start_number = 1;
