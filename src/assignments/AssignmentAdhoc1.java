@@ -38,11 +38,7 @@ public class AssignmentAdhoc1 {
 //		System.out.println(0.1*6==0.6);
 //		System.out.println(0.5*5==0.5);
 
-		
-		   public int reverse(int x) {
-		        for(int i=0;i<x.;i++){
-		            syso
-		        }
+
 		
 		
 	}
