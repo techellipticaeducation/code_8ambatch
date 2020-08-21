@@ -1,8 +1,19 @@
 package methods;
 
+
+// public or default 
 public class ExerciseDemo {
 
 	
+	private String name;
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 	
 	//  i want to create one method 
 	// name = square
@@ -24,6 +35,8 @@ public class ExerciseDemo {
 	test4
 	*/
 	
+	
+
 	/**
 	 * 
 	 * @param args

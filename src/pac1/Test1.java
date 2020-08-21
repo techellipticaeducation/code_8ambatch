@@ -1,20 +1,14 @@
 package pac1;
 
+import java.util.Comparator;
+
 public class Test1 {
 
-	public void test1() {
-		
-	}
-	
-	void test2() {
-		
-	}
-	
-	private void test3() {
-		
-	}
-	
-	protected void test4() {
+	static class MySort implements Comparator{
+
+		public int compare(String arg0, String arg1) {
+			return arg1.compareTo(arg0);
+		}
 		
 	}
 }
